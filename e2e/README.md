@@ -1,4 +1,4 @@
-##Assignment Walkthrough
+## Assignment Walkthrough
 1. Read the instructions
 2. Forked and cloned the Budgeting App
 3. Changed the App's file permission: `chmod -R 777 [DIR]`
@@ -7,7 +7,7 @@
 6. Started the App: `npm start`
 7. Launched the App: `http://localhost:8000/`
 
-##Test Plan
+## Test Plan
 The test plan consist of a list of functional (e2e) tests from an User perspective.
 1. Given that the User is on the Budget module of the App
     1. When User opens the Budget module
