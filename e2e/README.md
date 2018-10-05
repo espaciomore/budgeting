@@ -2,7 +2,7 @@
 1. Read the instructions
 2. Forked and cloned the Budgeting App
 3. Changed the App's file permission: `chmod -R 777 [DIR]`
-4. Installed the App: `npm install`
+4. Installed the App (using Node v10): `npm install`
 5. Ran the App's tests: `npm test`
 6. Started the App: `npm start`
 7. Launched the App: `http://localhost:8000/`
