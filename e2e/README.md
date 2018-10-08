@@ -1,18 +1,22 @@
 ## Assignment Walkthrough
 1. Read the instructions
 1. Forked and cloned the Budgeting App
-1. Changed the App's file permission: `chmod -R 777 [DIR]`
-1. Installed the App (using Node v10): `npm install`
-1. Ran the App's tests: `npm test`
-1. Started the App: `npm start`
-1. Launched the App: `http://localhost:8000/`
+1. Changed the App's file permission: e.g. `chmod -R 777 [DIR]`
+1. Installed the App (using Node v10): e.g. `npm install`
+1. Ran the App's tests: e.g. `npm test`
+1. Started the App: e.g. `npm start`
+1. Launched the App: e.g. `http://localhost:8000/`
 
 ## Test Dependencies
-1. Installed Wdio: `npm install -g webdriverio@latest`
-1. Installed Cucumber: `npm install -g wdio-cucumber-framework@latest`
-1. Installed Assert: `npm install assert`
-1. Installed Selenium: `npm install selenium-standalone@latest -g && selenium-standalone install`
-1. Started Selenium Server: `selenium-standalone start`
+1. Installed Wdio: e.g. `npm install -g webdriverio@latest`
+1. Installed Cucumber: e.g. `npm install -g wdio-cucumber-framework@latest`
+1. Installed Assert: e.g. `npm install assert`
+1. Installed Selenium: e.g. `npm install selenium-standalone@latest -g && selenium-standalone install`
+1. Started Selenium Server: e.g. `selenium-standalone start`
+
+## E2E Test Execution
+1. Changed to working directory: e.g. `cd /var/www/budgeting`
+1. Ran Wdio: e.g. `wdio ./e2e/wdio.conf.js`
 
 ## Test Plan Notes
 The test plan consist of a list of functional (e2e) tests from an User perspective.
