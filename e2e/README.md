@@ -12,10 +12,10 @@
 1. Installed Cucumber: e.g. `npm install -g wdio-cucumber-framework@latest`
 1. Installed Assert: e.g. `npm install assert`
 1. Installed Selenium: e.g. `npm install selenium-standalone@latest -g && selenium-standalone install`
-1. Started Selenium Server: e.g. `selenium-standalone start`
 
 ## E2E Test Execution
 1. Changed to working directory: e.g. `cd /var/www/budgeting`
+1. Started Selenium Server (using a different terminal): e.g. `selenium-standalone start`
 1. Ran Wdio: e.g. `wdio ./e2e/wdio.conf.js`
 
 ## Test Plan Notes
