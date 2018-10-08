@@ -1,13 +1,20 @@
 ## Assignment Walkthrough
 1. Read the instructions
-2. Forked and cloned the Budgeting App
-3. Changed the App's file permission: `chmod -R 777 [DIR]`
-4. Installed the App (using Node v10): `npm install`
-5. Ran the App's tests: `npm test`
-6. Started the App: `npm start`
-7. Launched the App: `http://localhost:8000/`
+1. Forked and cloned the Budgeting App
+1. Changed the App's file permission: `chmod -R 777 [DIR]`
+1. Installed the App (using Node v10): `npm install`
+1. Ran the App's tests: `npm test`
+1. Started the App: `npm start`
+1. Launched the App: `http://localhost:8000/`
 
-## Test Plan
+## Test Dependencies
+1. Installed Wdio: `npm install -g webdriverio@latest`
+1. Installed Cucumber: `npm install -g wdio-cucumber-framework@latest`
+1. Installed Assert: `npm install assert`
+1. Installed Selenium: `npm install selenium-standalone@latest -g && selenium-standalone install`
+1. Started Selenium Server: `selenium-standalone start`
+
+## Test Plan Notes
 The test plan consist of a list of functional (e2e) tests from an User perspective.
 1. Given that the User is on the Budget module of the App
     1. When User opens the Budget module
